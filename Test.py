@@ -10,7 +10,7 @@ class SportsWinBetting:
             'losses': 0
         }
  
-    def place_bet(self, team_name, amount):
+     def place_bet(self, team_name, amount):
         # Place a bet on a team
         self.bets.append((team_name, amount))
  
